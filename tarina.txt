@@ -1,0 +1,22 @@
+Olipa kerran suomalainen koodari nimeltä Aleksi, joka osasi tehdä git committeja – ei vain teknisesti oikein, vaan myös tyylikkäästi, informatiivisesti ja lähes taiteellisesti. Hänen taitonsa eivät kuitenkaan olleet synnynnäisiä. Ne olivat seurausta lukemattomista tunteista virheiden, turhautumisen ja kahvinhuuruisen itsensä kehittämisen parissa. Tämä on tarina siitä, miten tavallisesta koodarista tuli legenda versionhallinnan maailmassa.
+Aleksi aloitti uransa startup-yrityksessä, jonka koodi oli kaaosta. Jokainen kehittäjä teki committeja tyyliin "fix", "asdf" tai pahimmillaan "wip". Historiaa ei voinut lukea ilman että halusi repiä hiukset päästään. Kun Aleksi yritti ymmärtää miksi joku oli muuttanut tiettyä riviä neljä kuukautta sitten, commit-viesti oli vain "testataan jotain".
+Tämä ajoi Aleksin hulluuden partaalle.
+Käännekohta tuli eräänä iltana, kun hän istui keittiönpöydän ääressä, sylissään läppäri ja mukissaan mustaa kahvia. Hän päätti, että nyt riittää. Hän alkoi lukea kaiken, mitä versionhallinnasta ja Gitistä oli kirjoitettu. Hän sukelsi Gitin manuaaleihin, selasi GitHubin parhaiden projektien historiatiedostoja ja jopa luki Chris Beamsin klassisen artikkelin "How to Write a Git Commit Message" (2014), joka muutti kaiken.
+Aleksi keksi oman commit-filosofiansa
+1. Ensimmäinen rivi kuvaa muutoksen imperatiivissa
+   "Add error logging to payment service", ei "Added" tai "Adding".
+2. Toinen rivi on tyhjä. Aina.
+3. Kolmas rivi eteenpäin kertoo taustaa:
+   Miksi tämä muutos tehtiin? Mitä vaihtoehtoja harkittiin mutta hylättiin?
+4. Jokainen commit kattaa vain yhden loogisen muutoksen.
+Aleksi alkoi soveltaa tätä filosofiaa projektissaan, ensin yksin. Työkaverit nauroivat: "Kuka muka lukee commit-viestejä?". Mutta muutaman viikon päästä heidän oli pakko myöntää, että elämä helpottui. Historia oli selkeä, revertit turvallisia, blame toimi loistavasti, ja bugien juurisyyt löytyivät nopeammin.
+Mutta tämä oli vasta alku.
+Aleksi meni pidemmälle. Hän alkoi rakentaa omia Git-hookkeja, jotka estivät huonoja commit-viestejä. Hän kirjoitti linterin, joka tarkasti, ettei viesti ollut liian pitkä, ettei se sisältänyt hölynpölyä kuten "lol" tai "bugfix", ja että jokaiseen viestiin oli linkki tikettiin tai dokumenttiin.
+Hän myös opetti muille, miten kirjoittaa commiteista merkityksellisiä. Hän piti sisäisiä workshopeja, perusti versionhallinnan käytäntöjen Confluence-sivun, ja teki jopa humoristisen videon nimeltä "Mitä tapahtuu, kun kirjoitat 'final fix' commit-viestiin?", joka meni viraaliksi firman Slackissä.
+Pian häntä pyydettiin puhujaksi konferensseihin.
+Eräässä tapahtumassa kysyttiin:
+"Eikö tämä commit-dogma hidasta kehitystä?"
+Aleksi vastasi:
+"Ei. Huonosti kirjoitettu historia maksaa kymmenkertaisesti enemmän, kun yrität selvittää miksi järjestelmä ei toimi. Commit-viesti on kuin päiväkirja tulevaisuuden sinulle – tee se ystävällisesti."
+Aleksi ei koskaan rakentanut omaa frameworkia tai kirjoittanut bestseller-ohjelmointikirjaa. Mutta hänen koodinsa jäi elämään pitkään sen jälkeen kun hän oli siirtynyt seuraavaan paikkaan. Ei siksi, että se olisi ollut täydellistä – vaan siksi, että jokainen commit oli kuin kirje menneisyydestä, täynnä kontekstia, huolellisuutta ja kunnioitusta seuraavaa kehittäjää kohtaan.
+Ja niissä viesteissä ei koskaan lukenut "asdf".
