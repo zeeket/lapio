@@ -19,4 +19,4 @@ Eräässä tapahtumassa kysyttiin:
 Aleksi vastasi:
 "Ei. Huonosti kirjoitettu historia maksaa kymmenkertaisesti enemmän, kun yrität selvittää miksi järjestelmä ei toimi. Commit-viesti on kuin päiväkirja tulevaisuuden sinulle – tee se ystävällisesti."
 Aleksi ei koskaan rakentanut omaa frameworkia tai kirjoittanut bestseller-ohjelmointikirjaa. Mutta hänen koodinsa jäi elämään pitkään sen jälkeen kun hän oli siirtynyt seuraavaan paikkaan. Ei siksi, että se olisi ollut täydellistä – vaan siksi, että jokainen commit oli kuin kirje menneisyydestä, täynnä kontekstia, huolellisuutta ja kunnioitusta seuraavaa kehittäjää kohtaan.
-Ja niissä viesteissä ei koskaan lukenut "asdf".
+Eikä niissä viesteissä koskaan lukenut "asdf".
