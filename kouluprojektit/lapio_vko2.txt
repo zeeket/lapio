@@ -1,3 +1,6 @@
 tämä on merge konflikti koska teen tätä tekstiä koneeltani hakematta githubista päivityksiä
 lapio
 tämä on kolmas rivi
+aiheutan tässä merge-konfliktin
+tämä on toinen rivi tekstiä
+lapio
