@@ -1,0 +1,3 @@
+tämä on merge konflikti koska teen tätä tekstiä koneeltani hakematta githubista päivityksiä
+lapio
+tämä on kolmas rivi
